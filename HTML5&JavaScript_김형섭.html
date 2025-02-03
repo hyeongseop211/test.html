@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      table{
+        width: 100%;
+        text-align: center;
+        margin: 20px auto;
+        width: auto;
+      }
+      th, td{
+        /* padding: 10px; */
+        box-sizing: 100%;
+        text-align: left;
+      }
+      .roomname, #cow, #name{
+        text-align: center;
+      }
+    
+    </style>
+</head>
+<body>
+    <table border="1" width="100%">
+        <th colspan="5" id="name">IT 시간표</th>
+        <tr>
+            <th></th>
+            <th class="roomname">401호</th>
+            <th class="roomname">402호</th>
+            <th class="roomname">403호</th>
+            <th class="roomname">404호</th>
+        </tr>
+        <tr>
+            <th class="time">09:00-12:00</th>
+            <th rowspan="4" id="cow">공<br><br>사<br><br>중</td>
+            <td>PYTHON 기초</td>
+            <td rowspan="2">네트워크보안<br> 실무자 양성</td>
+            <td>보충훈련 과정 <br>(OS/네트워크)</td>
+        </tr>
+        <tr>
+            <th class="time">12:30-15:30</th>
+            <td>JAVA</td>
+            <!-- <td></td> -->
+            <td>보충훈련 과정 <br> (언어계열)</td>
+        </tr>
+        <tr>
+            <th class="time">15:30-18:30</th>
+            <td>C언어</td>
+            <td rowspan="2" class="403">가상화 시스템<br>엔지니어 실무자 양성</td>
+            <td>리눅스</td>
+        </tr>
+        <tr>
+            <th class="time">19:00-22:00</th>
+            <td>PYTHON_WEB</td>
+            <!-- <td>엔지니어 실무자 양성</td> -->
+            <td>서버</td>
+        </tr>
+    </table>
+</body>
+</html>
